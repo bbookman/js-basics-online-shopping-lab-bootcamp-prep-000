@@ -28,6 +28,7 @@ function viewCart() {
   }
   
   if (cart.length == 1){
+    var item = cart[0]
     returnString += item.itemName + " at $" + item.itemPrice
     return returnString
   }
