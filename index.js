@@ -36,7 +36,7 @@ function viewCart() {
     var item = cart[i]
     
     if ((i + 1) == cart.length){
-      returnString += item.itemName + "and at $" + item.itemPrice + "."
+      returnString += "and " + item.itemName + " at $" + item.itemPrice + "."
     } else {
        returnString += item.itemName + " at $" + item.itemPrice + ", "
     }
