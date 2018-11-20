@@ -3,10 +3,10 @@ var cart = [{itemName: "bananas", itemPrice: 10},{itemName: "chocolate", itemPri
 function total() {
   var amount = 0
   for (var i=0; i < cart.length; i++){
-    var item = cart[i]
-    total += item.itemPrice
+    var item = cart[i];
+    amount += item.itemPrice;
   }
-  return amount
+  return amount;
 }
 
 function placeOrder(cardNumber) {
