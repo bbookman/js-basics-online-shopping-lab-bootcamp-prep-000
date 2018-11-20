@@ -45,12 +45,12 @@ function viewCart() {
 }
 
 function total() {
-  var total = 0
+  var amount = 0
   for (var i=0; i < cart.length; i++){
-    var item = cart[i]
-    total += item.itemPrice
+    var item = cart[i];
+    amount += item.itemPrice;
   }
-  return total
+  return amount;
 }
 
 function removeFromCart(item) {
