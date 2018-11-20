@@ -36,6 +36,15 @@ function removeFromCart(item) {
   return "That item is not in your cart.";
 }
 
-console.log(viewCart())
-console.log(removeFromCart("chocolate"))
-console.log(viewCart())
+function placeOrder(cardNumber) {
+   console.log(cardNumber)
+   if (cardNumber !== null){
+     cart = []
+     
+     return "Your total cost is $" + total() + ", which will be charged to the card " + cardNumber + "." 
+   } else {
+     return "Sorry, we don't have a credit card on file for you."
+   }
+}
+
+console.log(placeOrder());
