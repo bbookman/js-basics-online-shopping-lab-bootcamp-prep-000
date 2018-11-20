@@ -29,6 +29,7 @@ function removeFromCart(item) {
   for (var i=0; i < cart.length; i++){
     var thing = cart[i]
     if (thing.itemName == item) {
+      console.log("Found " + item + " to remove")
       cart.splice(i, 1)
       return cart
       
