@@ -66,6 +66,7 @@ function removeFromCart(item) {
 
 
 function placeOrder(cardNumber) {
+  console.log("Total is " + total())
    if (cardNumber !== undefined){
      cart = []
      
