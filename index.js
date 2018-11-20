@@ -67,5 +67,10 @@ function removeFromCart(item) {
 
 
 function placeOrder(cardNumber) {
-    
+   if (cardNumber !== null){
+     cart = []
+     
+     return "Your total cost is $" + total() + ", "
+     
+   }
 }
