@@ -40,5 +40,5 @@ function removeFromCart(item) {
 }
 
 console.log(viewCart())
-console.log(removeFromCart(chocolate))
+console.log(removeFromCart("chocolate"))
 console.log(viewCart())
