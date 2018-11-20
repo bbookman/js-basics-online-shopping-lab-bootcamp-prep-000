@@ -53,7 +53,6 @@ function total() {
   return total
 }
 
-
 function removeFromCart(item) {
   for (var i=0; i < cart.length; i++){
     var thing = cart[i];
