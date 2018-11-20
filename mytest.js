@@ -28,6 +28,7 @@ function viewCart() {
 function removeFromCart(item) {
   for (var i=0; i < cart.length; i++){
     var thing = cart[i]
+    console.log("Checking " + thing.itemName + "in cart against " + item )
     if (thing.itemName == item) {
       console.log("Found " + item + " to remove")
       cart.splice(i, 1)
