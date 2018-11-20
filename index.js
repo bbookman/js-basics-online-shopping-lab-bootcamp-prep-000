@@ -70,7 +70,8 @@ function placeOrder(cardNumber) {
    if (cardNumber !== null){
      cart = []
      
-     return "Your total cost is $" + total() + ", "
+     return "Your total cost is $" + total() + ", which will be charged to the card " + cardNumber + "." 
+   } else {
      
    }
 }
