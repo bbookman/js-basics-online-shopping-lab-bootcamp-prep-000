@@ -79,3 +79,4 @@ function placeOrder(cardNumber) {
 }
 
 console.log(placeOrder(5678))
+console.log(total())
