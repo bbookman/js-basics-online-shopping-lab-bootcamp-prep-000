@@ -1,5 +1,13 @@
 var cart = [{itemName: "bananas", itemPrice: 10},{itemName: "chocolate", itemPrice: 20}]
 
+function total() {
+  var total = 0
+  for (var i=0; i < cart.length; i++){
+    var item = cart[i]
+    total += item.itemPrice
+  }
+  return total
+}
 
 function placeOrder(cardNumber) {
   console.log("Total is " + total())
