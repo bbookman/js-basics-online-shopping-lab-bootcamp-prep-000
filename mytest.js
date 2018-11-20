@@ -1,20 +1,20 @@
 var cart = [{itemName: "bananas", itemPrice: 10},{itemName: "chocolate", itemPrice: 20}]
 
 function total() {
-  var total = 0
+  var amount = 0
   for (var i=0; i < cart.length; i++){
     var item = cart[i]
     total += item.itemPrice
   }
-  return total
+  return amount
 }
 
 function placeOrder(cardNumber) {
-  var total = total()
+  var cost = total()
    if (cardNumber !== undefined){
      cart = []
      
-     return "Your total cost is $" + total + ", which will be charged to the card " + cardNumber + "." 
+     return "Your total cost is $" + cost + ", which will be charged to the card " + cardNumber + "." 
    } else {
      return "Sorry, we don't have a credit card on file for you."
    }
