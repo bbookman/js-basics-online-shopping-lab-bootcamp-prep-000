@@ -22,3 +22,4 @@ function placeOrder(cardNumber) {
 
 
 console.log(total())
+console.log(placeOrder(9943883))
