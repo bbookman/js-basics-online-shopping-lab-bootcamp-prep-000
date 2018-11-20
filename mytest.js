@@ -37,7 +37,6 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-   console.log(cardNumber)
    if (cardNumber !== undefined){
      cart = []
      
