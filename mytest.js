@@ -39,4 +39,4 @@ function removeFromCart(item) {
   }
 }
 
-log.console(viewCart())
+console.log(viewCart())
